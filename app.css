@@ -1,0 +1,69 @@
+#p1b {
+    padding: 25px 75px;
+    background-color: skyblue;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#p2b {
+    padding: 25px 75px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#p1b:hover {
+    padding: 25px 75px;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: green;
+}
+
+#p2b:hover {
+    padding: 25px 75px;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: green;
+}
+
+#reset {
+    padding: 6px;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#div {
+    border: 2px solid black;
+    border-radius: 9px;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    background-color: black;
+    padding: 15px 15px;
+    margin: 15% auto;
+}
+
+#playto {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 25px 75px;
+}
+
+#hs {
+    color: white;
+}
+
+#h {
+    background-color: white;
+    letter-spacing: 43PX;
+}
+
+#reset {
+    padding: 25px 75px;
+}
+
+
+/* * {
+    background-image: url(https://www.adobe.com/express/create/photo-collage/media_1e44e705240fd0a4f2c4f446c3a98ae75d9dd4ad5.png?width=2000&format=webply&optimize=medium);
+} */

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCOREKEEPER</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body style="background-image: url(https://www.adobe.com/express/create/photo-collage/media_1e44e705240fd0a4f2c4f446c3a98ae75d9dd4ad5.png?width=2000&format=webply&optimize=medium);">
+
+    <style>
+        .winner {
+            color: green;
+        }
+        
+        .looser {
+            color: red;
+        }
+    </style>
+    <center>
+
+
+        <div id="div">
+
+            <div id="hs">
+                <H2>SCORE KEEPER</H2>
+            </div>
+            <hr>
+            <div id="h">
+                <h1> <span id="p1d">0</span> V <span id="p2d">0</span> </h1>
+            </div>
+            <select name="" id="playto">
+
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+
+            </select>
+
+            <button id="p1b"> +1 player one </button>
+            <button id="p2b">+1 player two </button>
+
+            <button id="reset">RESET</button>
+
+
+        </div>
+        <script src="app.js"></script>
+    </center>
+</body>
+
+</html>
